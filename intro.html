@@ -1,0 +1,96 @@
+<!DOCTYPE html>      <!--represents html file -->
+<html lang="en">     <!--language of html-->  <!--starting of the html code-->
+<head>               <!--description of html code-->    <!--oening of head-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">       <!--link the current file with other file-->
+    <title>introduction</title>      <!--title show on tab of amin page-->
+</head>         <!--closing of head-->
+<body>          <!--main part of code-->
+    <h1>        <!--HEADING TAG FROM H1 TO H6 (Block level elements)-->
+        INTRO TO HTML</h1>
+
+    <p>         <!--paragraph tag (Inline elements)-->
+        <marquee>    <!--float the text in any direction-->
+            <u>      <!--underline the text-->
+                Lorem ipsum
+            </u>
+        </marquee>    
+        <b>       <!--bold/<strong> the text-->
+            Lorem ipsum
+        </b>   
+            <br>    <!--break the line , self closing tag (Block level elements)-->
+         <i>         <!--italic/<em>(emphasis) the text-->
+             <small>  <!--decrease the font size-->
+                 dolor sit amet consectetur adipisicing elit.
+             </small>
+        </i>   
+         <hr>     <!--horizontal tag ,create a line between two text (block level elements)--> 
+         Soluta, ad ipsam ab velit, magni dicta aliquam incidunt mollitia adipisci quaerat dolorem placeat rem nisi omnis culpa eligendi? Pariatur, praesentium iure!
+    </p>
+    <a href="https://www.google.com/" target="_blank">    <!--anchor tag,create hyperlink of other site (Inline elements) -->  <!--href, target are attributes......target opens a new tab for site opened-->
+        Go to google
+    </a>
+        <br>
+    <img src="..//solar.jpg" alt="no image">
+    <br>
+    <video src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" controls loop muted width="300">   <!--used to insert video-->
+    </video>
+    <iframe src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_640_3MG.mp4" width="300" height="250" frameborder="1">   <!--can show image, website, video etc.-->
+    </iframe>
+    <hr>
+    <p>
+        <br>
+        <span id="hi">       <!--span used to wrap elements (Inline elements)--> <!--id attribute gives uniqueness to text-->
+             <b> LIST OF FOOD ITEMS </b> 
+        </span>
+        <ol type="A">        <!--make a ordered list-->
+            <div class="drop" id="div1">   <!--div tag (Block level element)-->    <!--class attribute represent group of items-->
+                <li>chocolate</li> <!--create a list of items-->
+            <ul type="square">    <!--make a unordered list-->
+            <div class="drop" >
+                <li>White chocolate</li>          <!--id has more preference than class-->
+                <li>Dark chocolate</li>
+            </div>
+            </ul>
+            <li>icecream</li>
+            <li>tea</li>
+        </div>
+        </ol>
+    </p> 
+    <p>Use of superscript and subscript :- 
+       2<sup>3</sup>= 6 , <!--superscript-->
+       log<sub>2</sub>x   <!--subscript-->
+    </p>
+    <table border="2px">   <!--create a table-->
+        <thead>            <!--header of a table-->
+            <th>HEADING TAG in html</th><!--heading of row show in bold letters-->
+            <th>ATTRIBUTES in table</th>
+        </thead>
+        <tbody>
+        <tr>    <!--row of table-->
+            <!--HTML entities
+            1. &lt-less than sign
+            2. &gt-greater than sign
+            3. &nbsp-non breaking space(white space)-->
+            <td>&lt;h1&gt;</td>   <!--shows table data-->
+            <td>&nbsp;&nbsp;&nbsp;border</td>
+            <td rowspan="3">HTML</td>    <!--combine rows-->
+        </tr>
+        <tr>
+            <td>&lt;h2&gt;</td>
+            <td>&nbsp;&nbsp;&nbsp;colspan</td>
+        </tr><tr>
+            <td>&lt;h3&gt; etc</td>
+            <td>&nbsp;&nbsp;&nbsp;rowspan</td>
+        </tr>
+        <tfoot>
+        <tr> 
+           <td colspan="2">Total= 2</td>     <!--combine columns-->
+        </tr>
+        </tfoot>
+        </tbody>
+    </table>
+
+        </body>         <!--End of body-->
+</html>                 <!--End of html-->
