@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h1>&lt&lt&lt&lt&lt  ENTER YOUR DETAILS  &gt&gt&gt&gt&gt
+    </h1>
+    <form action="">   <!--used to make a form (form tag) -->
+     <p> 
+        <label for="un">Username:</label>   
+        <!--label tag used to link text and label togethor using for and id attribute in labbel and input tag-->
+        <input type="text" name="username" id="un" placeholder="abc" required>
+        <!--name attribute assign the name of text in url-->
+        <!--placeholder attribute is a sample text which we an add-->
+        <!--required attribute make the particular bolck to write-->
+        <br><br>
+        Email:
+        <input type="email" name="mail" placeholder="abc@mail" required><br><br>
+        Password:
+        <input type="password" name="pw" required><br><br>
+        Date of Birth:
+        <input type="date" name="dob" placeholder="dd/mm/yyyy" required> <br><br>
+        Favourite colour:
+        <input type="color" name="color" required><br><br>
+        Mobile no.:
+        <input type="number" maxlength="10" minlength="8"  name="mobile" placeholder="8xxxxxxxx8" required> <br><br> 
+        <!--maxlength and minlength attributes restricts the user to enter within these parameter-->
+        Gender: <br><br>
+        <!--radio gives mcq type ques with single selection option-->
+        <!--value attribute assign value to that particular name which we select-->
+        <input type="radio" name="Gender" value="m">MALE<br>
+        <input type="radio" name="Gender" value="f">FEMALE<br>
+        <input type="radio" name="Gender" value="o">OTHERS<br><br>
+        Choose your Social Media Platform: <br><br>
+        <!--checkbox same works as radio but with multiple selection option-->
+        <input type="checkbox" name="Social" value="fb">FACEBOOK<br>
+        <input type="checkbox" name="Social" value="insta">INSTAGRAM<br>
+        <input type="checkbox" name="Social" value="twitter">TWITTER<br>
+        <input type="checkbox" name="Social" value="linked_in">LINKED IN<br><br>
+        <!--button tag used to give the button to user-->
+        <button type="reset">RESET ALL</button> <br><br>
+        <button>submit</button>
+     </p>
+    </form>
+    
+</body>
+</html>
